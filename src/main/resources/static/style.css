@@ -92,7 +92,7 @@ input#query {
     background-color: #e9ecef;
     border: none;
 
-    background-image: url('/images/icon-search.png');
+    background-image: url('../images/icon-search.png');
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-size: 20px 20px;
@@ -155,6 +155,10 @@ button {
     padding-left: 10px;
 }
 
+.add-folder-btn {
+    width: 330px;
+}
+
 .popup button.close {
     position: absolute;
     top: 15px;
@@ -167,6 +171,14 @@ button {
 
 .popup button.cta {
     width: 369.1px;
+    height: 43.9px;
+    border-radius: 2px;
+    background-color: #15aabf;
+    border: none;
+}
+
+.popup button.cta2 {
+    width: 352.1px;
     height: 43.9px;
     border-radius: 2px;
     background-color: #15aabf;
@@ -289,10 +301,11 @@ button {
 }
 
 .pagination {
+    font-size: 14px;
     margin-top: 12px;
     margin-left: auto;
     margin-right: auto;
-    width: 53%;
+    width: 65%;
 }
 
 .folder-active {
@@ -318,6 +331,7 @@ button {
 }
 
 .folder-bar .folder-bar-item {
+    font-size: 17px;
     padding: 8px 16px;
     float: left;
     width: auto;
@@ -596,7 +610,7 @@ button {
         background-color: #e9ecef;
         border: none;
 
-        background-image: url('/images/icon-search.png');
+        background-image: url('../images/icon-search.png');
         background-repeat: no-repeat;
         background-position: right 10px center;
         background-size: 20px 20px;
@@ -661,6 +675,14 @@ button {
 
     .popup button.cta {
         width: 319px;
+        height: 43.9px;
+        border-radius: 2px;
+        background-color: #15aabf;
+        border: none;
+    }
+
+    .popup button.cta2 {
+        width: 302.1px;
         height: 43.9px;
         border-radius: 2px;
         background-color: #15aabf;
@@ -773,7 +795,6 @@ button {
         background-color: #e9ecef;
         border: none;
 
-        background-image: url('images/kakao_login_medium_narrow.png');
         background-repeat: no-repeat;
         background-position: right 10px center;
         background-size: 20px 20px;
